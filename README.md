@@ -1,0 +1,2 @@
+# Hack Recursive Function Bug
+This repository demonstrates a common bug in recursive functions written in Hack:  a stack overflow error due to improper handling of input values.  The `foo` function calculates the factorial of a number. However, it only handles positive integers correctly. If a negative integer is provided, it will cause infinite recursion, eventually resulting in a stack overflow error. The solution demonstrates how to properly handle this edge case by adding a check for negative inputs.
